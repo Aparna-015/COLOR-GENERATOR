@@ -1,6 +1,42 @@
-*{
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226, 227, 227);
+}
+
+.container {
+  width: 450px;
+
+  border: 1px solid black;
+  padding: 20px 30px;
+}
+
+.gradient-box {
+    height: 220px;
+    background-color: rgb(166, 135, 195);
+}
+.row-options {
+    width:350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.select select{
+    padding: 8px 10px;
+    border: 1px solid gray;
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+}
+
+.colors input{
+    width: 41px;
+}
